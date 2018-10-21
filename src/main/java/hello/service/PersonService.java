@@ -10,5 +10,10 @@ public interface PersonService {
     @Nonnull
     List<PersonInfo> findAllPersons();
 
+    @Nullable
+    PersonInfo findPersonById(@Nonnull Integer id);
+
+    @Nullable
+    void createPerson(@Nonnull String name, @Nonnull Integer age);
 
 }

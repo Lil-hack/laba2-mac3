@@ -3,6 +3,6 @@ hello\model\PersonInfo.class
 hello\service\PersonService.class
 hello\service\PersonServiceImpl.class
 hello\repository\PersonRep.class
+hello\getway\GateWay.class
 hello\web\PersonsController.class
 hello\Application.class
-hello\model\PingResponse.class
